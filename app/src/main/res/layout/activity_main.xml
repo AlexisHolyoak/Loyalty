@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="easymarketapp.com.loyalty.activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="242.25dp"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/card_background"/>
+        <TextView
+            android:id="@+id/card_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentEnd="true"
+            android:paddingTop="20dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="20dp"
+            android:text="@string/card_title"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="32sp"/>
+        <TextView
+            android:id="@+id/card_account_label"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account_number"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:id="@+id/card_account_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_account_label"
+            android:width="360dp"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-condensed"
+            android:maxLines="1"
+            android:gravity="center"
+            android:text="@string/waiting"
+            android:textColor="@color/colorWhite"
+            android:paddingBottom="20dp"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EasyMarket Loyalty</string>
+
+    <string name="card_title">EasyMarket Lealtad</string>
+    <string name="account_number">Número de cuenta</string>
+    <string name="waiting">Esperando...</string>
+</resources>
